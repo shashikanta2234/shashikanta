@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<style>
+    .bd{
+        background-color: rgb(224, 23, 84);
+        border-radius: 20px;
+        border-width: 2px;
+        padding-left: 50px;
+        padding-right: 200px;
+        padding-top: 20px;
+        padding-bottom: 200px;
+        background-image: linear-gradient(to left,rgb(234, 17, 53),white);
+        height: 100%;
+        border-color: black;
+    }
+    .box{
+        background-color:rgb(192, 40, 85) ;
+        padding-left: 50px;
+        padding-right: 300px;
+        padding-top: 50px;
+        padding-bottom: 200px;
+        border-radius: 50px;
+        background-image: linear-gradient(to right,rgb(192, 40, 85),white);
+    }
+    .log{
+        background-color:white ;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        border-radius: 50px;
+        font-size:large;
+    }
+    .lin{
+        background-color: rgb(224, 23, 84);
+        height: 25px;
+        width: 85%;
+        border-radius: 10px;
+        color: white;
+        align-content: center;
+        animation:  duration timing-function delay iteration-count direction fill-mode;
+    }
+    .lin:active{
+        background-color: rgb(25, 16, 19);
+        height: 25px;
+        width: 85%;
+        border-radius: 10px;
+        color: white;
+        align-content: center; 
+    }
+    .subm{
+        background-color: gold;
+        font-size: auto;
+        height: 25px;
+        width: 20%;
+        border-radius: 10px;
+        padding-block: 5px;
+        color: white;
+    }
+    .subm:hover{
+        background-color:grey;
+        height: 25px;
+        width: 20%;
+        font-size: auto;
+        border-radius: 10px;
+        padding: 5px;
+        color: white;
+        align-content: center;
+    }
+    #back{
+        height: 35px;
+        width: 35px;
+    }
+</style>
+<body>
+    <div class="bd">
+        <a href="index.html"><img id="back" src="back-button.png" alt="Home"></i></a>
+        <div class="box">
+        <div class="log">
+    <form>
+        <label for="userid">Admin Id:</label><br>
+        <input class="lin" type="text" required placeholder="Enter Your Admin ID" autofocus><br>
+        <label for="Password">Password:</label><br>
+        <input class="lin" type="password" required placeholder="Enter Your Password"><br>
+        <input type="checkbox" id="check"><label for="check">Keep me signed in</label><br>
+        <input class="subm" type="submit" value="Login">
+        <input class="subm" type="reset" value="Reset">
+        <button class="subm"><a href="#">Forgotten password</a></button><br><br><br><br><br>
+    </form>
+    </div>
+</div>
+</div>
+</body>
+</html>
